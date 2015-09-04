@@ -62,7 +62,7 @@ class Main extends React.Component {
         var morePlates = plates.map((plate) => {
           var firebaseKeys;
 
-          if( plate['images-lo'] ) {
+          if(plate['images-lo']) {
             firebaseKeys = Object.keys(plate['images-lo']);
           } else {
             firebaseKeys = Object.keys(plate['images']);
